@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Team contact form</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="purpose">Puporse of contact</label>
+        <select name="purpose" id="purpose">
+          <option value="business">Bussiness</option>
+          <option value="personal">Personal</option>
+        </select>
+      </div>
+      <div>
+        <p>Full Name</p>
+        <input type="text" name="fullName" id="fullName" maxlength="50" />
+      </div>
+      <div>
+        <p>Email</p>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <p>Phone Number</p>
+        <input type="number" />
+      </div>
+      <div>
+        <p>Contact Method</p>
+
+        <input type="radio" id="byEmail" name="contactMethod" />
+        <label for="byEmail">Email</label>
+
+        <input type="radio" id="byPhone" name="contactMethod" />
+        <label for="byPhone">Phone</label>
+
+        <div>
+            <p>Contact day(s)</p>
+            <input type="checkbox" id="monday" />
+            <label for="monday">Monday</label>
+  
+            <input type="checkbox" id="tuesday" />
+            <label for="tuesday">Tuesday</label>
+  
+            <input type="checkbox" id="wednesday" />
+            <label for="wednesday">Wednesday</label>
+  
+            <input type="checkbox" id="thursday" />
+            <label for="thursday">Thursday</label>
+  
+            <input type="checkbox" id="friday" />
+            <label for="friday">Friday</label>
+  
+            <input type="checkbox" id="saturday" />
+            <label for="saturday">Saturday</label>
+  
+            <input type="checkbox" id="sunday" />
+            <label for="sunday">Sunday</label>
+        </div>
+
+        <div>
+            <p>Attachment</p>
+            <input type="file" name="" id="">
+          
+        </div>
+
+        <div>
+            <p>Message</p>
+            <textarea name="" id=""></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Send">
+        </div>
+
+        <div>
+            <input type="reset" value="Clear">
+        </div>
+        
+      
+      
+    </form>
+  </body>
+</html>
